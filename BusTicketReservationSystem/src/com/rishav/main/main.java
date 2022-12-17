@@ -7,6 +7,7 @@ import com.rishav.bean.Customer;
 import com.rishav.custom.ConsoleColors;
 import com.rishav.usecase.AddBus2usecase;
 import com.rishav.usecase.AdminLoginusecase;
+import com.rishav.usecase.BookTicketbNameusecase;
 import com.rishav.usecase.CancelTicketbNameusecase;
 import com.rishav.usecase.CusLoginusecase;
 import com.rishav.usecase.CusSignUp2usecase;
@@ -14,7 +15,7 @@ import com.rishav.usecase.UpdateStatususecase;
 import com.rishav.usecase.ViewAllTicketsusecase;
 import com.rishav.usecase.ViewTicketusecase;
 
-public class main {
+public class Main {
 
 	static void AdminOrCustomer() {
 		System.out.println(ConsoleColors.PURPLE + "+---------------------------+" + "\n"
@@ -242,5 +243,4 @@ public class main {
 				
 	}	
 
-	
 }
